@@ -1,0 +1,29 @@
+{
+  "name": "react-card-object",
+  "version": "0.0.0",
+  "description": "React Card Object",
+  "main": "dist/react-card-object.min.js",
+  "homepage": "https://github.com/chantastic/react-card-object",
+  "authors": [
+    "Michael Chan"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ]
+}
