@@ -1,6 +1,6 @@
 {
   "name": "react-card-object",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "React Card Object",
   "main": "dist/react-card-object.min.js",
   "homepage": "https://github.com/chantastic/react-card-object",
