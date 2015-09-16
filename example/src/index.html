@@ -1,22 +1,58 @@
 <!doctype html>
 <head>
-	<title>React Card Object</title>
-	<link rel="stylesheet" href="example.css">
+  <title>React Card</title>
+  <link rel="stylesheet" href="example.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
-<body>
-	<div class="container">
-		<h1>React Card Object</h1>
-		<h2><a href="https://github.com/chantastic/react-card-object">View project on GitHub</a></h2>
-		<!-- the example app is rendered into this div -->
-		<div id="app"></div>
-		<div class="hint">
-			<!-- put any hints about your component example here -->
-		</div>
-		<div class="footer">
-			Copyright &copy; 2015 Michael Chan.
-		</div>
-	</div>
-	<script src="common.js"></script>
-	<script src="bundle.js"></script>
-	<script src="example.js"></script>
+<body style="background-color: #ddd">
+  <div class="container">
+    <h1>React Card</h1>
+    <h2><a href="https://github.com/chantastic/react-card">View project on GitHub</a></h2>
+    <h3>*WIP*</h3>
+    <section>
+      <p> basic example, no arguments </p>
+      <div id="exampleOne"></div>
+    </section>
+
+    <section>
+      <p> use of style prop </p>
+      <div id="exampleTwo"></div>
+      <h3>TODO</h3>
+      <ul>
+        <li>padding breakis Image fixed margin</li>
+      </ul>
+    </section>
+
+    <section>
+      <p> use of className prop </p>
+      <div id="exampleThree"></div>
+    </section>
+
+    <section>
+      <p> use of noStyle prop </p>
+      <div id="exampleFour"></div>
+    </section>
+
+    <section>
+      <h3>Trello-like</h3>
+      <div id="exampleFive"></div>
+    </section>
+
+    <h2>Usage</h2>
+    <p>First, don't use it. It's not any good yet</p>
+    <pre><code>$ npm install react-card-object</code></pre>
+    <p>In your ES2015 app:</p>
+    <pre><code>import { Card } from 'react-card-object';</code></pre>
+    <p>In your ES5 app:</p>
+    <pre><code>
+var ReactCard = require('react-card-object');
+var Card = ReactCard.Card;
+    </code></pre>
+    <div class="footer">
+      Copyright &copy; 2015 Michael Chan.
+    </div>
+  </div>
+  <script src="common.js"></script>
+  <script src="bundle.js"></script>
+  <script src="example.js"></script>
 </body>
